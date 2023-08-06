@@ -22,9 +22,13 @@ The server will start running on port 3000 (or the specified process.env.PORT).
 Open your browser or a tool like Postman and access the following endpoints:
 
 •	GET /api/courses: Get a list of all courses.
+
 •	GET /api/courses/:id: Get details of a specific course by ID.
+
 •	POST /api/courses: Add a new course. Provide a JSON object with a name field.
+
 •	PUT /api/courses/:id: Update the name of a course by ID. Provide a JSON object with a name field.
+
 •	DELETE /api/courses/:id: Delete a course by ID.
 
 Example
